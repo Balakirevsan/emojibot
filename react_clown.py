@@ -8,9 +8,9 @@ import random  # Add this import
 init()
 
 # Telegram API credentials
-API_ID = "22943962"
-API_HASH = "b27e806732cd5cdffc330d762d35b238"
-PHONE_NUMBER = "+48669446875"
+API_ID = ""
+API_HASH = ""
+PHONE_NUMBER = ""
 
 # List of user IDs to track (replace with actual user IDs)
 TARGET_USERS = [
@@ -37,9 +37,9 @@ GREEK_STATUE_EMOJI = "🏛️"
 USER_SETTINGS = {
     5252510673: {  # Светлана
         "emoji": CHRISTMAS_TREE_EMOJI,
-        "chance": 0.17,
-        "delay_range": (60, 180),
-        "remove_delay": 30,  # Remove after 30 seconds
+        "chance": 1,
+        "delay_range": (0, 0),
+        "remove_delay": 2,  # Remove after 30 seconds
     },
     1075156676: {  # Ежик
         "emoji": HAND_SHAKE_EMOJI,
