@@ -37,9 +37,9 @@ GREEK_STATUE_EMOJI = "🏛️"
 USER_SETTINGS = {
     5252510673: {  # Светлана
         "emoji": CHRISTMAS_TREE_EMOJI,
-        "chance": 0.5,
+        "chance": 0.17,
         "delay_range": (60, 180),
-        "remove_delay": 30,  # Remove after 2 minutes
+        "remove_delay": 30,  # Remove after 30 seconds
     },
     1075156676: {  # Ежик
         "emoji": HAND_SHAKE_EMOJI,
@@ -63,7 +63,7 @@ USER_SETTINGS = {
         "emoji": BLITZ_EMOJI,
         "chance": 1,
         "delay_range": (10, 60),
-        "remove_delay": None,  # Remove after 30 seconds
+        "remove_delay": 5,  # Remove after 30 seconds
     },
     5169039455: {  # Игорь
         "emoji": STONE_EMOJI,
